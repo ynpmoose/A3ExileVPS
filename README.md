@@ -5,9 +5,11 @@ http://www.exilemod.com/topic/8873-disappearing-vehicles-on-restarts/?do=findCom
 
 
 **Vehicle Protection System Features:**
-All persistent vehicles are invincible on server restart, but only if they are locked in a territory where the owner has build permissions.
-Unlocked vehicles, or vehicles left in the wild can be destroyed. If the vehicle owners logs in, all owned vehicles are vulnerable until restart. If a friend
-with the code uses one of your vehicles, that specific vehicle is vulnerable until restart. Vehicles in Trader Zones are unlocked on restart per Exile default.
+- All persistent vehicles are invincible on server restart, but only if they are locked in a territory where the owner has build permissions.
+- Unlocked vehicles, or vehicles left in the wild can be destroyed.
+- If the vehicle owners logs in, all owned vehicles are vulnerable until restart.
+- If a friend with the code uses one of your vehicles, that specific vehicle is vulnerable until restart.
+- Vehicles in Trader Zones are unlocked on restart per Exile default.
 
 
 **Installation intructions:**
@@ -21,7 +23,8 @@ need to manually merge the changes. All the code for the Vehicle Protection Syst
 - Extract PBO files using PBO Manager
 
 - Edit config.cpp using something like Notepad++
-   - Locate the class CfgExileCustomCode and add your overrides, something like this:
+
+- Locate the class CfgExileCustomCode and add your overrides, something like this:
  
 ```
 	class CfgExileCustomCode
