@@ -1,8 +1,8 @@
 ####Arma 3: Exile Mod: Vehicle Protection System by ynpmoose of ZeroSurvival.com
 
-This is a vehicle protection mod for Exile Mod for Arma 3.This was built off of a basic protection system created by NoKturnal Gaming Community *NGC* that was posted to the ExileMod.com forums by gmctyphoon92.
+This is a vehicle protection mod for Exile Mod for Arma 3.This was built off of a basic protection system created by NoKturnal Gaming Community *NGC* that was posted to the ExileMod.com forums by gmctyphoon92. Their base mod made vehicles invincible on restart until unlocked by a player with the code.
 http://www.exilemod.com/topic/8873-disappearing-vehicles-on-restarts/?do=findComment&comment=58814
-Their base mod made vehicles invincible on restart until unlocked by a player with the code.
+
 
 Vehicle Protection System Features:
 All persistent vehicles are invincible on server restart, but only if they are locked in a territory where the owner has build permissions.
