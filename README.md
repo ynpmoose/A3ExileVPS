@@ -1,4 +1,4 @@
-Arma 3: Exile Mod: Vehicle Protection System by ynpmoose of ZeroSurvival.com
+####Arma 3: Exile Mod: Vehicle Protection System by ynpmoose of ZeroSurvival.com
 
 This is a vehicle protection mod for Exile Mod for Arma 3.This was built off of a basic protection system created by NoKturnal Gaming Community *NGC* that was posted to the ExileMod.com forums by gmctyphoon92.
 http://www.exilemod.com/topic/8873-disappearing-vehicles-on-restarts/?do=findComment&comment=58814
