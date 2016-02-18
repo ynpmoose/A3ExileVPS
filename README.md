@@ -26,6 +26,7 @@ need to manually merge the changes. All the code for the Vehicle Protection Syst
 - Edit config.cpp using something like Notepad++
    - Locate the class CfgExileCustomCode and add your overrides, something like this:
  
+```
 	class CfgExileCustomCode
 		{
 		/*
@@ -48,7 +49,7 @@ need to manually merge the changes. All the code for the Vehicle Protection Syst
 		ExileServer_object_vehicle_database_update = "overrides\ExileServer_object_vehicle_database_update.sqf";
 		ExileServer_object_vehicle_network_unlockVehicleRequest = "overrides\ExileServer_object_vehicle_network_unlockVehicleRequest.sqf";
 		};
-
+```
 
 - Create a folder in your mission called 'overrides'
 
