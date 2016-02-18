@@ -1,6 +1,6 @@
 ####Arma 3: Exile Mod: Vehicle Protection System by ynpmoose of ZeroSurvival.com
 
-This is a vehicle protection mod for Exile Mod for Arma 3.This was built off of a basic protection system created by NoKturnal Gaming Community *NGC* that was posted to the ExileMod.com forums by gmctyphoon92. Their base mod made vehicles invincible on restart until unlocked by a player with the code.
+This is a collection of scripts changes for the Exile Mod for Arma 3.This was built off of a basic protection system created by NoKturnal Gaming Community *NGC* that was posted to the ExileMod.com forums by gmctyphoon92. Their base scripts made vehicles invincible on restart until unlocked by a player with the code.
 http://www.exilemod.com/topic/8873-disappearing-vehicles-on-restarts/?do=findComment&comment=58814
 
 
@@ -13,10 +13,9 @@ http://www.exilemod.com/topic/8873-disappearing-vehicles-on-restarts/?do=findCom
 
 
 **Installation intructions:**
-These instructions assume that there are no other mods installed. If there are other mods that touch the same .SQF files, you will
-need to manually merge the changes. All the code for the Vehicle Protection System is clearly wrapped in comments to make it easy to find.
+These instructions assume that there are no other no other scripts modified in your base Exile installation. If there are other changes that touch the same .SQF files, you will need to manually merge the changes. All the code for the Vehicle Protection System is clearly wrapped in comments to make it easy to find.
 
-- Download the mod from http://github.com/ynpmoose/A3ExileVPS
+- Download the files from http://github.com/ynpmoose/A3ExileVPS
 
 - Shutdown the A3Exile Server Down and locate you Mission PBO (Example: \Exile Server\@ExileServer-0.9.41\Arma 3 Server\mpmissions\Exile.Altis.pbo)
 
