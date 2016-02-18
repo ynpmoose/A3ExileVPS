@@ -25,7 +25,7 @@ need to manually merge the changes. All the code for the Vehicle Protection Syst
 - Edit config.cpp using something like Notepad++
 
 - Locate the class CfgExileCustomCode and add your overrides, something like this:
- 
+
 ```
 	class CfgExileCustomCode
 		{
