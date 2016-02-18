@@ -4,13 +4,13 @@ This is a vehicle protection mod for Exile Mod for Arma 3.This was built off of 
 http://www.exilemod.com/topic/8873-disappearing-vehicles-on-restarts/?do=findComment&comment=58814
 
 
-Vehicle Protection System Features:
+**Vehicle Protection System Features:**
 All persistent vehicles are invincible on server restart, but only if they are locked in a territory where the owner has build permissions.
 Unlocked vehicles, or vehicles left in the wild can be destroyed. If the vehicle owners logs in, all owned vehicles are vulnerable until restart. If a friend
 with the code uses one of your vehicles, that specific vehicle is vulnerable until restart. Vehicles in Trader Zones are unlocked on restart per Exile default.
 
 
-Installation intructions:
+**Installation intructions:**
 These instructions assume that there are no other mods installed. If there are other mods that touch the same .SQF files, you will
 need to manually merge the changes. All the code for the Vehicle Protection System is clearly wrapped in comments to make it easy to find.
 
