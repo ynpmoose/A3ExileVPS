@@ -231,6 +231,6 @@ call ExileServer_system_network_send_to;
 		};
 	} forEach _vehObjects;
 	
-// Start: Owned Vehicles Vulnerable Upon Login
+// End: Owned Vehicles Vulnerable Upon Login
 
 true
