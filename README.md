@@ -1,4 +1,5 @@
 ####Arma 3: Exile Mod: Vehicle Protection System by ynpmoose of ZeroSurvival.com
+Updated for Exile 0.9.6 "Pomelo" - 07Mar2016
 
 This is a collection of scripts changes for the Exile Mod for Arma 3.This was built off of a basic protection system created by NoKturnal Gaming Community *NGC* that was posted to the ExileMod.com forums by gmctyphoon92. Their base scripts made vehicles invincible on restart until unlocked by a player with the code.
 http://www.exilemod.com/topic/8873-disappearing-vehicles-on-restarts/?do=findComment&comment=58814
