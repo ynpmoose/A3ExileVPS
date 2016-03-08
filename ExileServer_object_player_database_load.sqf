@@ -50,6 +50,8 @@ _player setVariable ["ExileDatabaseID", _data select 0];
 _player setVariable ["ExileHunger", _data select 4];
 _player setVariable ["ExileThirst", _data select 5];
 _player setVariable ["ExileAlcohol", _data select 6]; 
+_player setVariable ["ExileTemperature", _data select 44]; 
+_player setVariable ["ExileWetness", _data select 45]; 
 _player setVariable ["ExileIsBambi", false];
 _player setVariable ["ExileXM8IsOnline", false, true];
 _player setOxygenRemaining (_data select 7);
@@ -212,10 +214,11 @@ _player addMPEventHandler ["MPKilled", {_this call ExileServer_object_player_eve
 		(_player getVariable ["ExileHunger", 100]),
 		(_player getVariable ["ExileThirst", 100]),
 		(_player getVariable ["ExileAlcohol", 0]),
-		(_player getVariable ["ExileClanName", ""])
+		(_player getVariable ["ExileClanName", ""]),
+		(_player getVariable ["ExileTemperature", 0]),
+		(_player getVariable ["ExileWetness", 0])
 	]
 ] 
-
 call ExileServer_system_network_send_to;
 [_sessionID, _player] call ExileServer_system_session_update;
 

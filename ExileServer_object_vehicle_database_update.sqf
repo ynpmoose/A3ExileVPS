@@ -22,12 +22,12 @@ if (_vehicleID > -1) then
 	_vectorUp = vectorUp _vehicleObject;
 	_availableHitpoints = getAllHitPointsDamage _vehicleObject;
 	_vehicleHitpoints = [];
-
+	
 // Vehicle Protection System
 // Start: Vehicles Vulnerable Upon Save
 	_vehicleObject allowDamage true;	
 // End: Vehicles Vulnerable Upon Save
-	
+
 	if!(_availableHitpoints isEqualTo [])then
 	{
 		{
