@@ -50,7 +50,7 @@ if (_isLocked) then
 			{
 				if ((_vehicleOwner) in (_vehicleInTerritory getVariable ["ExileTerritoryBuildRights", []])) then  //check if the vehicle owner has build rights
 					{
-						_vehicleObject allowDamage false;;  //vehicle owner has build rights, vehicle is invinicible
+						_vehicleObject allowDamage false;  //vehicle owner has build rights, vehicle is invinicible
 					};
 			};
 	// End Vehicle Invincible in Authorized Terrority After Restart
