@@ -54,6 +54,7 @@ if (_vehicleID > -1) then
 		magazinesAmmoCargo _vehicleObject,
 		weaponsItemsCargo _vehicleObject,
 		_vehicleObject call ExileServer_util_getObjectContainerCargo,
+		_vehicleObject getVariable ["ExileMoney", 0],
 		_vehicleID 
 	];
 	_extDB2Message = ["updateVehicle", _data] call ExileServer_util_extDB2_createMessage;
