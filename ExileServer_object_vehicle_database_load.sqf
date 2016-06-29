@@ -23,6 +23,7 @@ _texture = _data select 21;
 _vehicleObject = [(_data select 1), _position, [_vectorDirection, _vectorUp], true,_pinCode] call ExileServer_object_vehicle_createPersistentVehicle;
 _vehicleObject setVariable ["ExileDatabaseID", _vehicleID];
 _vehicleObject setVariable ["ExileOwnerUID", (_data select 3)];
+_vehicleObject setVariable ["ExileMoney", (_data select 23), true];
 _lock = (_data select 4);
 _unlockInSafeZonesAfterRestart = (getNumber (configFile >> "CfgSettings" >> "VehicleSpawn" >> "unlockInSafeZonesAfterRestart")) isEqualTo 1;
 _isLocked = (_lock isEqualTo -1);
