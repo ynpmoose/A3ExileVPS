@@ -22,12 +22,6 @@ if (_vehicleID > -1) then
 	_vectorUp = vectorUp _vehicleObject;
 	_availableHitpoints = getAllHitPointsDamage _vehicleObject;
 	_vehicleHitpoints = [];
-	
-// Vehicle Protection System
-// Start: Vehicles Vulnerable Upon Save
-	_vehicleObject allowDamage true;	
-// End: Vehicles Vulnerable Upon Save
-
 	if!(_availableHitpoints isEqualTo [])then
 	{
 		{
@@ -59,5 +53,11 @@ if (_vehicleID > -1) then
 	];
 	_extDB2Message = ["updateVehicle", _data] call ExileServer_util_extDB2_createMessage;
 	_extDB2Message call ExileServer_system_database_query_fireAndForget;
+
+// Vehicle Protection System
+// Start: Vehicles Vulnerable Upon Save
+	_vehicleObject allowDamage true;	
+// End: Vehicles Vulnerable Upon Save
+
 };
 true
