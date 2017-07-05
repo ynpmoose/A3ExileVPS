@@ -1,5 +1,7 @@
 ####Arma 3: Exile Mod: Vehicle Protection System by ynpmoose of ZeroSurvival.com
 
+Updated for Exile 1.0.3 "Lemon" - 05Jul2017
+
 Updated for Exile 1.0.1 "Sweet Potato" - 31Aug2016
 
 Updated for Exile 0.9.8 "Kiwi" - 29Jun2016 (ExileServer_object_vehicle_network_unlockVehicleRequest.sqf also removed because it never actually did anything.)
